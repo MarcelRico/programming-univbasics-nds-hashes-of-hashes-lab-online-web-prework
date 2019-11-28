@@ -33,9 +33,11 @@
 
 def naming_system
 
-PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
-PORTION_1[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
-PORTION_1[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
-    
-return PORTION_1
+overall_hash = PORTION_1
+
+overall_hash[:sub_category][:sub_category][:sub_category] = PORTION_2
+overall_hash[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
+overall_hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
+
+overall_hash
 end
